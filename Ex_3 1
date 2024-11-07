@@ -1,0 +1,11 @@
+#include <iostream>
+
+int main()
+{
+    char a = 66, b = 67, c = 70;
+    printf(" a = %c\n",a);
+    printf(" b = %c\n",b);
+    printf(" c = %c\n",c);
+
+    return 0;
+}
