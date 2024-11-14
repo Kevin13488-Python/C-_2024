@@ -1,0 +1,18 @@
+#include <iostream>
+
+int main()
+{
+    int x,y;
+    printf("pls input int x=");
+    scanf("%d",&x);
+    printf("pls input int y=");
+    scanf("%d",&x);
+    if (x>y ){
+        printf("x < y \n");
+    }else if (x> y){
+        printf("x < y \n");
+    }else {
+        printf("x == y \n");
+    }
+    return 0;
+}
