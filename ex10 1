@@ -1,38 +1,49 @@
-/******************************************************************************
+/*
 
-Welcome to GDB Online.
-GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
-C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
-Code, Compile, Run and Debug online from anywhere in world.
+5、編寫一個程式,從4個整數中找出最小的數,並顯示此數。 using fun
 
-*******************************************************************************/
+*/
+
 #include <iostream>
 
 int main()
 {
-    /***
     int a1,a2,a3,a4;
-    printf("please input a integer");
+    int i,a[4];
+    int min_v;
+    printf("please input a integer :");
     scanf("%d",&a1);
-    printf("please input a integer");
+    printf("please input a integer :");
     scanf("%d",&a2);
-    printf("please input a integer");
+    if(a1>a2){
+        min_v = a2;
+    }else{
+        min_v = a1;
+    }
+    printf("please input a integer :");
     scanf("%d",&a3);
-    printf("please input a integer");
+    if(a3>min_v){
+        min_v = min_v;
+    }else{
+        min_v = a3;
+    }
+printf("please input a integer :");
     scanf("%d",&a4);
-    printf("number a1 = %d",a1);
-    printf("number a2 = %d",a2);
-    printf("number a3 = %d",a3);
-    printf("number a4 = %d",a4);
-    /***
-    /***
-    for(i=0;i<4,i++){
-        printf("please input a interger");
+    if(a4>min_v){
+        min_v = min_v;
+    }else{
+        min_v = a4;
+    }
+    printf("number a1 = %d\n",a1);
+    printf("number a2 = %d\n",a2);
+    printf("number a3 = %d\n",a3);
+    printf("number a4 = %d\n",a4);
+    printf("minmum number = %d\n",min_v);
+    
+    /*
+    for(i=0;i<4;i++){
+        printf("please input a integer :");
         scanf("%d",&a[i]);
     }
     for(i=0;i<4;i++){
-        printf("number a[%d] = %d\n,i,a[i]");
-    }
-    return 0;
-    /***
-}
+        printf("number a[%d] = %d\n",i,a[i]);
