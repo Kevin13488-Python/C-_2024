@@ -1,0 +1,38 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+
+int main()
+{
+    /***
+    int a1,a2,a3,a4;
+    printf("please input a integer");
+    scanf("%d",&a1);
+    printf("please input a integer");
+    scanf("%d",&a2);
+    printf("please input a integer");
+    scanf("%d",&a3);
+    printf("please input a integer");
+    scanf("%d",&a4);
+    printf("number a1 = %d",a1);
+    printf("number a2 = %d",a2);
+    printf("number a3 = %d",a3);
+    printf("number a4 = %d",a4);
+    /***
+    /***
+    for(i=0;i<4,i++){
+        printf("please input a interger");
+        scanf("%d",&a[i]);
+    }
+    for(i=0;i<4;i++){
+        printf("number a[%d] = %d\n,i,a[i]");
+    }
+    return 0;
+    /***
+}
